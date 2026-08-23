@@ -1,0 +1,34 @@
+{
+  "brand": "Guardify",
+  "tagline": "Performance Marketing for Salons",
+  "domain": "guardify.co.in",
+  "phone": "+91 91036 15033",
+  "phoneRaw": "919103615033",
+  "whatsappRaw": "919103615033",
+  "email": "Contact@guardify.co.in",
+  "instagram": "https://www.instagram.com/guardify_official",
+  "instagramHandle": "@guardify_official",
+  "whatsappMessage": "Hi Guardify! I run a salon and I'd like to know how your 10% performance model works.",
+  "creatorWhatsappMessage": "Hi Guardify! I'm a creator and I'd like to work with your brand partners.",
+  "formEndpoint": "",
+  "formToken": "",
+  "year": "2026",
+  "stats": [
+    {
+      "k": "100+",
+      "v": "Salons we've worked with"
+    },
+    {
+      "k": "1000+",
+      "v": "Influencers we've worked with"
+    },
+    {
+      "k": "20+",
+      "v": "Brands in our partner network"
+    },
+    {
+      "k": "10%",
+      "v": "One-time fee. Nothing recurring."
+    }
+  ]
+}

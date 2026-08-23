@@ -1,0 +1,48 @@
+# Netlify config — drag this folder into netlify.com/drop, or connect the repo.
+[build]
+  publish = "."
+  command = "python3 build.py"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# Source files must never be served. force = true is required: without it a
+# real file on disk wins over a redirect, so /pages/index.html would render as
+# a headerless duplicate of the homepage and Google would index it.
+[[redirects]]
+  from = "/pages/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/templates/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/form-backend/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/build.py"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/site.json"
+  to = "/404.html"
+  status = 404
+  force = true
+
+# Catch-all — must stay last.
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

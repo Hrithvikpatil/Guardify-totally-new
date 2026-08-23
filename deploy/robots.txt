@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /pages/
+Disallow: /templates/
+Disallow: /form-backend/
+Disallow: /build.py
+Disallow: /site.json
+
+Sitemap: https://guardify.co.in/sitemap.xml
